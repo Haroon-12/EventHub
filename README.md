@@ -205,7 +205,7 @@ Update contact details in both the contact section and footer in `index.html`.
 
 ## 👨‍💻 Developer Information
 
-**Created by**: Muhammad Haroon Waheed
+**Created by**: Muhammad Haroon Waheed  
 **Purpose**: Dynamics 360 Web Development Internship Case Study  
 **Submission Date**: June 5th, 2025  
 **Technologies**: HTML5, CSS3, Vanilla JavaScript  
