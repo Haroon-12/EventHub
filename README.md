@@ -4,7 +4,7 @@ A responsive, interactive webpage showcasing featured local events built for the
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-username.github.io/eventhub-featured-events)
+[View Live Demo](https://eventhub9.netlify.app/)
 
 ## 📋 Project Overview
 
