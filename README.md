@@ -89,8 +89,8 @@ The website is fully responsive and optimized for:
 
 2. **Clone and Open Project**:
    \`\`\`bash
-   git clone https://github.com/your-username/eventhub-featured-events.git
-   cd eventhub-featured-events
+   git clone https://github.com/Haroon-12/EventHub.git
+   cd Event Hub
    \`\`\`
 
 3. **Open in VS Code**:
@@ -109,17 +109,6 @@ The website is fully responsive and optimized for:
 3. **Double-click `index.html`** to open in your default browser
 4. **Refresh manually** when making changes
 
-### Method 3: Local Server
-
-\`\`\`bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx serve .
-
-# Then visit http://localhost:8000
-\`\`\`
 
 ## 📁 Project Structure
 
@@ -151,7 +140,6 @@ Events are stored as JavaScript objects with properties:
 - **Real-time search**: Updates as user types
 - **Multi-field search**: Searches name, location, and description
 - **Case-insensitive**: Works regardless of capitalization
-- **Left-aligned results**: Single results appear on the left side
 - **No results handling**: Shows message when no matches found
 
 ### Navigation Features
@@ -179,23 +167,6 @@ Events are stored as JavaScript objects with properties:
 2. Or connect GitHub repository for automatic deployment
 3. Get instant live URL
 
-### Vercel
-1. Import project from GitHub to [Vercel](https://vercel.com)
-2. Automatic deployment with preview URLs
-3. Custom domain support available
-
-## 🎨 Customization Guide
-
-### Colors
-Main color palette:
-\`\`\`css
---primary: #6366f1;     /* Indigo */
---secondary: #8b5cf6;   /* Purple */
---background: #f8fafc;  /* Light gray */
---text: #1e293b;        /* Dark gray */
---muted: #64748b;       /* Medium gray */
-\`\`\`
-
 ### Adding New Events
 To add events, modify the `eventsData` array in `script.js`:
 \`\`\`javascript
@@ -221,13 +192,6 @@ Update contact details in both the contact section and footer in `index.html`.
 - ✅ Edge (latest)
 - ✅ Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🔍 SEO Features
-
-- Semantic HTML structure
-- Proper heading hierarchy (H1, H2, H3)
-- Meta viewport tag for mobile
-- Descriptive page title
-- Alt text for images (when applicable)
 
 ## ♿ Accessibility Features
 
@@ -238,33 +202,10 @@ Update contact details in both the contact section and footer in `index.html`.
 - Responsive text sizing
 - Focus indicators for interactive elements
 
-## 📝 Future Enhancements
-
-- [ ] Backend integration for real event data
-- [ ] User authentication and registration system
-- [ ] Event categories and advanced filtering
-- [ ] Calendar integration
-- [ ] Social sharing features
-- [ ] Event favorites/bookmarking
-- [ ] Map integration for event locations
-- [ ] Email newsletter signup
-- [ ] Event reviews and ratings
-- [ ] Multi-language support
-
-## 🐛 Known Issues
-
-- None currently reported
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-- Create an issue on GitHub
-- Contact: support@eventhub.com
-- Phone: +92 345-4465782
 
 ## 👨‍💻 Developer Information
 
-**Created by**: [Your Name]  
+**Created by**: Muhammad Haroon Waheed
 **Purpose**: Dynamics 360 Web Development Internship Case Study  
 **Submission Date**: June 5th, 2025  
 **Technologies**: HTML5, CSS3, Vanilla JavaScript  
@@ -272,41 +213,6 @@ If you encounter any issues or have questions:
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 🎯 Case Study Requirements Checklist
-
-### ✅ Layout Requirements
-- [x] Top navigation bar with logo and links
-- [x] Hero section with required heading
-- [x] Featured Events section with 3-5 events
-- [x] Responsive design (mobile and tablet friendly)
-
-### ✅ Event Card Requirements
-- [x] Event name
-- [x] Date and time
-- [x] Location
-- [x] Short description
-- [x] Register button
-
-### ✅ Design Requirements
-- [x] Clean, simple UI
-- [x] Fully responsive layout
-- [x] Professional appearance
-
-### ✅ Bonus Features
-- [x] Search bar with filtering functionality
-- [x] Dynamic event loading with dummy JSON
-- [x] Additional enhancements (contact form, social media, etc.)
-
-### ✅ Technical Requirements
-- [x] HTML5
-- [x] CSS3 (custom styling, no Bootstrap)
-- [x] Vanilla JavaScript
-- [x] GitHub repository ready
-- [x] Live deployment ready
-- [x] Comprehensive documentation
 
 ---
 
