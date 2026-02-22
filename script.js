@@ -22,7 +22,7 @@ const eventsData = [
   },
   {
     id: 3,
-    name: "Food & Wine Tasting",
+    name: "Food & Drink Tasting",
     date: "2025-06-28",
     time: "07:00 PM",
     location: "Riverside Restaurant District",
